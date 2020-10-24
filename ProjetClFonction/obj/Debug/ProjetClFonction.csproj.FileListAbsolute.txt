@@ -1,0 +1,7 @@
+D:\Téléchargements\repos\ProjetClFonction\ProjetClFonction\bin\Debug\ProjetClFonction.exe.config
+D:\Téléchargements\repos\ProjetClFonction\ProjetClFonction\bin\Debug\ProjetClFonction.exe
+D:\Téléchargements\repos\ProjetClFonction\ProjetClFonction\bin\Debug\ProjetClFonction.pdb
+D:\Téléchargements\repos\ProjetClFonction\ProjetClFonction\obj\Debug\ProjetClFonction.csprojAssemblyReference.cache
+D:\Téléchargements\repos\ProjetClFonction\ProjetClFonction\obj\Debug\ProjetClFonction.csproj.CoreCompileInputs.cache
+D:\Téléchargements\repos\ProjetClFonction\ProjetClFonction\obj\Debug\ProjetClFonction.exe
+D:\Téléchargements\repos\ProjetClFonction\ProjetClFonction\obj\Debug\ProjetClFonction.pdb
