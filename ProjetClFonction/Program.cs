@@ -11,10 +11,8 @@ namespace Seryu
             {
                 Console.Title = "SeryuApp | Réciproque du théorème de Pythagore";
                 Console.Clear();
-
                 Console.ForegroundColor = ConsoleColor.Magenta;
                 Console.WriteLine(@"/ Réciproque du théorème de Pythagore \");
-
                 Console.WriteLine();
                 Console.ResetColor();
                 Console.WriteLine("Ne pas mettre de . ou de ; (Exemple 2,45)" + Environment.NewLine);
@@ -67,7 +65,6 @@ namespace Seryu
             {
                 Console.Title = "SeryuApp | Théorème de Pythagore";
                 Console.Clear();
-
                 Console.ForegroundColor = ConsoleColor.Magenta;
                 Console.WriteLine(@"/ Théorème de Pythagore \");
                 Console.WriteLine();
@@ -111,7 +108,6 @@ namespace Seryu
             {
                 Console.Title = "SeryuApp | Calculer une moyenne";
                 Console.Clear();
-
                 Console.ForegroundColor = ConsoleColor.Magenta;
                 Console.WriteLine(@"/ Calculer une moyenne \");
                 Console.WriteLine();
@@ -162,7 +158,6 @@ namespace Seryu
             {
                 Console.Title = "SeryuApp | L'aire d'un triangle";
                 Console.Clear();
-
                 Console.ForegroundColor = ConsoleColor.Magenta;
                 Console.WriteLine(@"/ Calculer l'aire d'un triangle \");
                 Console.WriteLine();
@@ -204,7 +199,6 @@ namespace Seryu
             {
                 Console.Title = "SeryuApp | L'aire d'un trapèze";
                 Console.Clear();
-
                 Console.ForegroundColor = ConsoleColor.Magenta;
                 Console.WriteLine(@"/ Calculer l'aire d'un trapèze \");
                 Console.WriteLine();
@@ -251,7 +245,6 @@ namespace Seryu
             {
                 Console.Title = "SeryuApp | L'aire d'un cercle"; 
                 Console.Clear();
-
                 Console.ForegroundColor = ConsoleColor.Magenta;
                 Console.WriteLine(@"/ Calculer l'aire d'un cercle \");
                 Console.WriteLine();
@@ -291,7 +284,6 @@ namespace Seryu
             {
                 Console.Title = "SeryuApp | L'aire d'un Triangle Rectangle";
                 Console.Clear();
-
                 Console.ForegroundColor = ConsoleColor.Magenta;
                 Console.WriteLine(@"/ Calculer l'aire d'un triangle rectangle \");
                 Console.WriteLine();
@@ -332,7 +324,6 @@ namespace Seryu
             {
                 Console.Title = "SeryuApp | L'aire d'un parallélo";
                 Console.Clear();
-
                 Console.ForegroundColor = ConsoleColor.Magenta;
                 Console.WriteLine(@"/ Calculer l'aire d'un parallélogramme \");
                 Console.WriteLine();
@@ -373,7 +364,6 @@ namespace Seryu
             {
                 Console.Title = "SeryuApp | L'aire d'un rectangle";
                 Console.Clear();
-
                 Console.ForegroundColor = ConsoleColor.Magenta;
                 Console.WriteLine(@"/ Calculer l'aire d'un rectangle \");
                 Console.WriteLine();
@@ -413,7 +403,6 @@ namespace Seryu
             void JustePrix()
             {
                 Console.Title = "SeryuApp | JustePrix";
-
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine(Environment.NewLine + "Nombre générer aléatoirement ( Entre 1 et 100 )" + Environment.NewLine);
                 Console.ResetColor();
@@ -461,7 +450,6 @@ namespace Seryu
             Console.SetWindowSize(132, 30);
             Console.Title = "SeryuApp";
             Console.Clear();
-
             Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine(" ________________________________________");
             Console.WriteLine("|                                        |");
@@ -536,7 +524,6 @@ namespace Seryu
 
             {
                 Console.Title = "SeryuApp | Crédit";
-
                 Console.ForegroundColor = ConsoleColor.Magenta;
                 Console.WriteLine(" _________________________________________");
                 Console.WriteLine("|                                         |");
@@ -570,7 +557,6 @@ namespace Seryu
             {
                 Console.Title = "SeryuApp | Secret";
                 Console.Clear();
-
                 Console.ForegroundColor = ConsoleColor.DarkRed;
                 Console.WriteLine(@" ________  ________  ___  ___  ________  ________  ________   ");
                 Console.WriteLine(@"|\   ____\|\   ____\|\  \|\  \|\   __  \|\   __  \|\   __  \  ");
@@ -584,8 +570,6 @@ namespace Seryu
                 Console.WriteLine(@"     ========       By              Seryû       ========      ");
                 Console.WriteLine(@"     ========    https://github.com/Seryu-Ub    ========      ");
                 Console.ResetColor();
-
-
 
                 Console.WriteLine(Environment.NewLine + "Si vous voulez jouer au petit jeu caché ecrivez 'Jouer'" + Environment.NewLine + "Ecrivez 'Retour' pour revenir au pannel principal" + Environment.NewLine);
 
@@ -602,7 +586,6 @@ namespace Seryu
                 {
                     JustePrix();
                 }
-
                 Console.ReadKey();
             }
         }
