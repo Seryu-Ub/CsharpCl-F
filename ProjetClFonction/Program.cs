@@ -14,6 +14,7 @@ namespace Seryu
 
                 Console.ForegroundColor = ConsoleColor.Magenta;
                 Console.WriteLine(@"/ Réciproque du théorème de Pythagore \");
+
                 Console.WriteLine();
                 Console.ResetColor();
                 Console.WriteLine("Ne pas mettre de . ou de ; (Exemple 2,45)" + Environment.NewLine);
