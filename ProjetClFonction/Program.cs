@@ -102,12 +102,6 @@ namespace Seryu
                 Console.ReadKey();
             }
 
-            void Calculatrice()
-            {
-                Process.Start(@"D:\Téléchargements\repos\ProjetClFonction\ProjetClFonction\WpfCalculator.exe");
-            }
-
-
             void Moyenne()
             {
                 Console.Title = "SeryuApp | Calculer une moyenne";
