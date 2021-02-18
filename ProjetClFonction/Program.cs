@@ -441,7 +441,6 @@ namespace Seryu
             Console.WriteLine("| Etat du code : Open Source             |");
             Console.WriteLine("| Commande importante : Retour           |");
             Console.WriteLine("| 'Retour = Revenir au pannel principal' |");
-            Console.WriteLine("| 'Calculatrice = Ouvre la calculatrice' |");
             Console.WriteLine("| Commande spécial : Credit  / Secret    |");
             Console.WriteLine("|________________________________________|");
             Console.ResetColor();
@@ -453,7 +452,6 @@ namespace Seryu
             Console.WriteLine(@"| [ 4 ] Calculer l'aire d'un triangle                  [ 5 ] Calculer l'aire d'un trapèze      [ 6 ] Calculer l'aire d'un cercle |");
             Console.WriteLine(@"| [ 7 ] Calculer l'aire d'un triangle rectangle        [ 8 ] Calculer l'aire d'un parallélo... [ 9 ] Calculer l'aire d'un rect.. |");
             Console.WriteLine(@"|________________________________________________________________________________________________________________________________|");
-            Console.WriteLine(Environment.NewLine + "Ecrivez 'Calculatrice' pour ouvrir celle-ci" + Environment.NewLine);
             Console.ResetColor();
 
             Console.ForegroundColor = ConsoleColor.Magenta;
@@ -505,11 +503,6 @@ namespace Seryu
                 Rectangle();
             }
 
-            if (op == "Calculatrice")
-            {
-                Calculatrice();
-            }
-
             if (op == "Credit")
 
             {
@@ -523,9 +516,6 @@ namespace Seryu
                 Console.WriteLine("|                                         |");
                 Console.WriteLine("| Help : Gaetaen                          |");
                 Console.WriteLine("| Github : https://github.com/gaetaen     |");
-                Console.WriteLine("|                                         |");
-                Console.WriteLine("| Little help  : Zelly                    |");
-                Console.WriteLine("| Github : https://github.com/ZelliDev    |");
                 Console.WriteLine("|_________________________________________|");
                 Console.ResetColor();
 
